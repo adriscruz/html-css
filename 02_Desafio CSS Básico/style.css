@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+}
+
+div{
+    height: 200px;
+    width: 400px;
+    padding: 1px 20px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(./Imagens/backgorund.png);
+    background-size: cover;
+}
+
+h1{
+    font-size: 2em;
+    margin-bottom: 2%;
+}
+
+ul{
+    font-size: 1.5em;
+    padding-top: 0%;
+    margin-top: 0;
+}
+
+li.a{
+    list-style-type: none;
+    list-style-image: url(./Imagens/Insta.png);
+}
+
+li.b{
+    list-style-image: url(./Imagens/Twitter.png);
+}
+
+li.c{
+    list-style-image: url(./Imagens/Youtube.png);
+}

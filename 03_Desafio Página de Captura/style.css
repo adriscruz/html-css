@@ -1,0 +1,87 @@
+@charset "UTF-8"
+
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+header{
+    background-color: #056CF2;
+    margin: 0;
+    
+}
+
+h1{
+    font-size: 1.5em;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+main{
+    background-image: url(/imagens/palestra.png);
+    background-size: cover;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.convite{
+    background-color: rgba(255, 255, 255, 0.521);
+    max-width: 250px;
+    padding: 10px;
+    float: right;
+}
+
+.formulario > h2{
+    line-height: 25px;
+    
+}
+
+.formulario{
+    padding-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    margin-top: 3px;
+    padding-right: 0px;
+    box-sizing: border-box;
+}
+
+select{
+    width: 100%;
+    padding: 8px;
+    margin-top: 3px;
+}
+
+.botao{
+    background-color: #056CF2;
+    border: none;
+    color: white;
+    text-transform:uppercase;
+    font-weight: bolder;
+}
+
+footer{
+    background-color: rgb(43, 43, 43);
+    color:white;
+}
+
+.description{
+    display: inline-block;
+}
+
+.foto{
+    padding-bottom: 100px;
+}
